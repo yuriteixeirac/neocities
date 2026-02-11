@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+#message {
+    padding: 3rem;
+    background-color: rgb(255, 255, 0, 0.5);
+    border: 2px dotted black;
+}

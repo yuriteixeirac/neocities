@@ -1,0 +1,19 @@
+.dazeet > .dazeet-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dazeet-date {
+    font-style: italic;
+}
+
+.o-que-e {
+    border: 2px solid blue;
+    background-color: rgb(0, 0, 255, 0.45);
+}
+
+
+
+#info {
+    color: blue;
+}
