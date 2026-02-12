@@ -23,7 +23,7 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    padding: 0.7rem 0;
+    /* padding: 0.7rem 0; */
     border-bottom: 2px solid black;
 }
 
@@ -64,4 +64,20 @@ main > section {
     padding: 1rem;
     background-color: rgb(29, 26, 26, 0.2);
     text-align: justify;
+}
+
+@media (width <= 500px) {
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header {
+        flex-direction: column;
+    }
+
+    main > section {
+        margin: 0 1.2rem;
+    }
 }
