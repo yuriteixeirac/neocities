@@ -13,7 +13,7 @@ body {
 
     display: grid;
     grid-template-columns: 15% 1fr 15%;
-    color: black;
+    color: #121212;
 }
 
 header {
@@ -32,7 +32,7 @@ header a {
 }
 
 a {
-    color: black;
+    color: #121212;
 }
 
 header ul {
@@ -48,7 +48,8 @@ header > nav > ul > a, header > a > h1 {
 
 a:hover {
     /* background-color: rgb(128, 0, 128, 0.1); */
-    background-color: rgba(255, 255, 39, 0.5);
+    color: purple;
+    background-color: rgb(227, 227, 0);
 }
 
 .space {
@@ -66,6 +67,11 @@ main > section {
     text-align: justify;
 }
 
+#kirby {
+    padding: 2px 0;
+    width: 5%;
+}
+
 @media (width <= 500px) {
     body {
         min-height: 100vh;
@@ -79,5 +85,9 @@ main > section {
 
     main > section {
         margin: 0 1.2rem;
+    }
+
+    #kirby {
+        display: none;
     }
 }

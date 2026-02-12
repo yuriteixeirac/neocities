@@ -1,6 +1,14 @@
+#dazeets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: auto;
+    gap: 20px;
+}
+
 .dazeet > .dazeet-info {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .dazeet-date {
@@ -8,10 +16,23 @@
 }
 
 .o-que-e {
+    grid-column: 2;
+    padding: 1rem;
+    text-align: justify;
     border: 2px solid blue;
     background-color: rgb(0, 0, 255, 0.45);
 }
 
 #info {
-    color: blue;
+    color: yellow;
+}
+
+@media (width <= 500px) {
+    #dazeets {
+        grid-template-columns: 1fr;
+    }
+
+    .o-que-e {
+        margin: 0 1.2rem;
+    }
 }
