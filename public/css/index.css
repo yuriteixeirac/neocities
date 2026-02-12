@@ -13,3 +13,10 @@
     border: 2px solid rgb(0, 0, 255);
     padding: 0;
 }
+
+@media (width <= 500px) {
+    #assets {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+}
